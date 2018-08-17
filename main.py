@@ -3,7 +3,7 @@ import csv
 score = {}
 for star in range(6) :
 	score[star] = {}
-	for lv in range(1,10) :
+	for lv in range(1,20) :
 		score[star][lv] = (star+5)*(100 + 10*(lv-1))
 
 flame = {}
